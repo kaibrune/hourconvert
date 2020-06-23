@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="container">
+
+        <h1>HourConvert</h1>
+    <label for="input">Time (HH:MM)</label>
+    <input type="time" id="input" onchange="calc();">
+    <label for="rate">Rate</label>
+    <input type="number" id="rate" onchange="calc();" value="0.00">
+    <label for="input">Output</label>
+    <input type="number" id="output" value="0.00">
+    <label for="outputrate">Output Rate</label>
+    <input type="text" id="outputrate" value="0.00">
+
+    <label for="date_in">Date</label>
+    <input type="date" id="date_in" onchange="date();">
+    <label for="date_out">Date Output</label>
+    <input id="date_out">
+
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
